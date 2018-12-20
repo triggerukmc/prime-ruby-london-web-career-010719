@@ -2,7 +2,7 @@
 
 def prime?(num)
  if num <= 1
-  (2..Math.sqrt(num)).none? { |i| (num % i).zero? }
+  return (2..Math.sqrt(num)).none? { |i| (num % i).zero? }
 else
   false
 end
